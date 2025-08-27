@@ -37,8 +37,7 @@ export default async function handler(req, res) {
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: userPrompt }
-        ],
-        max_completion_tokens: 300,
+        ]
       })
     });
 
